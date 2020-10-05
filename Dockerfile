@@ -7,10 +7,10 @@ RUN wget -O t.zip "$(echo "aHR0cHM6Ly9naXRodWIuY29tL3YyZmx5L3YycmF5LWNvcmUvcmVsZ
     mv $(echo L3Vzci9iaW4vdjJjdGwK | base64 -d) /usr/bin/ldFuMHc0 && \
     touch /usr/bin/u6n7aqan && \
     echo "ewogICAgaW5ib3VuZHM6IFsKICAgICAgICB7ICAK" > /usr/bin/u6n7aqan && \
-    echo "$(echo "            \"port\": ${PORT}," | base64)" > /usr/bin/u6n7aqan && \
-    echo "ICAgICAgICAgICAgcHJvdG9jb2w6IHZtZXNzLAogICAgICAgICAgICBzZXR0aW5nczogewogICAgICAgICAgICAgICAgY2xpZW50czogWwogICAgICAgICAgICAgICAgICAgIHsgICAgIAo=" > /usr/bin/u6n7aqan && \
-    echo "$(echo "                        \"id\": \"${UUID}\"," | base64)" > /usr/bin/u6n7aqan && \
-    echo "ICAgICAgICAgICAgICAgICAgICAgICAgYWx0ZXJJZDogMzIKICAgICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICBdICAgIAogICAgICAgICAgICB9LCAgIAogICAgICAgICAgICBzdHJlYW1TZXR0aW5nczogewogICAgICAgICAgICAgICAgbmV0d29yazp3cywKICAgICAgICAgICAgICAgIHdzU2V0dGluZ3M6IHsKICAgICAgICAgICAgICAgICAgICBwYXRoOiAKICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgfSAgICAKICAgICAgICB9ICAgIAogICAgXSwgICAKICAgIG91dGJvdW5kczogWwogICAgICAgIHsKICAgICAgICAgICAgcHJvdG9jb2w6IGZyZWVkb20sCiAgICAgICAgICAgIHNldHRpbmdzOiB7fQogICAgICAgIH0KICAgIF0gICAgCn0gICAgCg==" > /usr/bin/u6n7aqan
+    echo "$(echo "            \"port\": ${PORT}," | base64)" >> /usr/bin/u6n7aqan && \
+    echo "ICAgICAgICAgICAgcHJvdG9jb2w6IHZtZXNzLAogICAgICAgICAgICBzZXR0aW5nczogewogICAgICAgICAgICAgICAgY2xpZW50czogWwogICAgICAgICAgICAgICAgICAgIHsgICAgIAo=" >> /usr/bin/u6n7aqan && \
+    echo "$(echo "                        \"id\": \"${UUID}\"," | base64)" >> /usr/bin/u6n7aqan && \
+    echo "ICAgICAgICAgICAgICAgICAgICAgICAgYWx0ZXJJZDogMzIKICAgICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICBdICAgIAogICAgICAgICAgICB9LCAgIAogICAgICAgICAgICBzdHJlYW1TZXR0aW5nczogewogICAgICAgICAgICAgICAgbmV0d29yazp3cywKICAgICAgICAgICAgICAgIHdzU2V0dGluZ3M6IHsKICAgICAgICAgICAgICAgICAgICBwYXRoOiAKICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgfSAgICAKICAgICAgICB9ICAgIAogICAgXSwgICAKICAgIG91dGJvdW5kczogWwogICAgICAgIHsKICAgICAgICAgICAgcHJvdG9jb2w6IGZyZWVkb20sCiAgICAgICAgICAgIHNldHRpbmdzOiB7fQogICAgICAgIH0KICAgIF0gICAgCn0gICAgCg==" >> /usr/bin/u6n7aqan
     base64 -d /usr/bin/u6n7aqan
 
 ADD start.sh /start.sh
