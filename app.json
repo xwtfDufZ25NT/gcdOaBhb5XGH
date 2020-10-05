@@ -1,11 +1,10 @@
 {
-	"name": "app",
-	"description": "app",
+	"name": "gcdOaBhb5XGH",
+	"description": "gcdOaBhb5XGH",
 	"env": {
 		"UUID": {
 			"description": "UUID",
 			"value": "50c42c54-11b9-4616-adf4-393779b771a6"
 		}
-	},
-	"stack": "container"
+	}
 }
